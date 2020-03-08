@@ -1,0 +1,82 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    display: block;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('img/bg.webp');
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: calc(35vh / 25vw * 100); */
+}
+
+header h1 {
+    font-size: 70px;
+    letter-spacing: 1vw;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+
+    margin: 0;
+    padding: 10vh;
+    text-align: center;
+    filter: brightness(200%);
+    color: white;
+}
+
+
+#description {
+    display: flex;
+    margin-top: 50px;
+    margin: 50px auto;
+    width: min(90vw, 1000px);
+    background-color: #111111;
+    color: white;
+
+}
+
+#description img {
+    height: 450px;
+    width: auto;
+}
+
+#desc {
+    margin: 30px;
+}
+
+#desc h1 {
+    margin: 0 0 30px 0;
+    font-size: 2.5em;
+}
+
+
+#companies {
+    margin-top: 60px;
+}
+#companies h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color:  #111111;;
+}
+#companies div {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#companies div img {
+    height: 5vw;
+    width: max(auto, 200px);
+}
+
+
+footer {
+    background-color: #111111;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
