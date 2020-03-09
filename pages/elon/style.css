@@ -80,3 +80,23 @@ footer {
     color: white;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 850px) {
+    #description {
+        display: block;
+        padding-bottom: 30px;
+        width: min(90vw, 500px);
+    }
+
+    #description img {
+        width: 100%;
+        height: auto;
+    }
+
+    #companies div img {
+        width: 40vw;
+        height: auto;
+        margin: 20px;
+    }
+}
