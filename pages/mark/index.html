@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark</title>
+    <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="status-bar">
+        <a class="page" id="page0" onclick="_scrollTo('sq0')"></a>
+        <a class="page" id="page1" onclick="_scrollTo('sq1')"></a>
+        <a class="page" id="page2" onclick="_scrollTo('sq2')"></a>
+    </div>
+
     <div class="sq" id="sq0">
-        <h1>This</h1>
+        <img src="img/zuki.png" alt="zuki">
+        <h1>Hi<br>I'm Mark</h1>
+        <a onclick="_scrollTo('sq1')">
+            <svg width="100" height="100" class="hvr-wobble-vertical">
+                <!-- <line x1="50" y1="0" x2="50" y2="100" style="fill:none;stroke-width:5;stroke:white" /> -->
+                <line x1="5"  y1="50" x2="52" y2="95" style="fill:none;stroke-width:5;stroke:white" />
+                <line x1="95" y1="50" x2="48" y2="95" style="fill:none;stroke-width:5;stroke:white" />
+            </svg>
+        </a>
     </div>
     <div class="sq" id="sq1">
         <h1>is</h1>
     </div>
     <div class="sq" id="sq2">
         <h1>a</h1>
-    </div>
-    <div class="sq" id="sq3">
-        <h1>test</h1>
     </div>
     <script src="index.js"></script>
 </body>
